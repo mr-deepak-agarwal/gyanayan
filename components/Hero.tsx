@@ -41,7 +41,7 @@ export default function Hero() {
 
         {/* Signature element: the substitution board */}
         <div className="animate-fade-up [animation-delay:150ms]">
-          <div className="rounded-md border border-ink/10 bg-white/60 p-5 shadow-[6px_6px_0_0_rgba(24,35,56,0.08)] sm:p-7">
+          <div className="rounded-md border border-ink/10 bg-white p-5 shadow-[6px_6px_0_0_rgba(47,92,255,0.22)] sm:p-7">
             <div className="mb-4 flex items-center justify-between font-mono text-[11px] uppercase tracking-widest text-ink/45">
               <span>Substitutions &middot; Today</span>
               <span>Grade 6 &middot; Section B</span>

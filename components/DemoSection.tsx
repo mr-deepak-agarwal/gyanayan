@@ -3,7 +3,7 @@ import DemoForm from "./DemoForm";
 export default function DemoSection() {
   return (
     <section id="demo" className="mx-auto max-w-4xl px-6 py-20 sm:px-10 sm:py-28">
-      <div className="rounded-lg border border-ink/10 bg-white/60 p-8 shadow-[8px_8px_0_0_rgba(24,35,56,0.06)] sm:p-12">
+      <div className="rounded-lg border border-ink/10 bg-white p-8 shadow-[8px_8px_0_0_rgba(255,203,60,0.35)] sm:p-12">
         <p className="font-mono text-xs uppercase tracking-[0.24em] text-board">
           Request a demo
         </p>

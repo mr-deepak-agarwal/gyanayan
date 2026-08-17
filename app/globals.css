@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -11,17 +11,17 @@
 
   body {
     @apply bg-paper text-ink font-body antialiased;
-    background-image: radial-gradient(rgba(24, 35, 56, 0.05) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(18, 23, 43, 0.06) 1px, transparent 1px);
     background-size: 22px 22px;
   }
 
   ::selection {
-    background: #ecc15c;
-    color: #182338;
+    background: #ffcb3c;
+    color: #12172b;
   }
 
   :focus-visible {
-    outline: 2px solid #b23b29;
+    outline: 2px solid #ff4436;
     outline-offset: 3px;
   }
 }
@@ -36,7 +36,7 @@
       to bottom,
       transparent 0,
       transparent 38px,
-      rgba(24, 35, 56, 0.08) 39px
+      rgba(18, 23, 43, 0.08) 39px
     );
   }
 }

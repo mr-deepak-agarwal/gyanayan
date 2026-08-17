@@ -6,26 +6,27 @@ const config: Config = {
     extend: {
       colors: {
         board: {
-          DEFAULT: "#1E3A30",
-          dark: "#142720",
+          DEFAULT: "#2F5CFF",
+          dark: "#1E3FCF",
         },
-        paper: "#F1EEE1",
+        paper: "#F9FAFF",
         kraft: {
-          DEFAULT: "#C7A46E",
-          dark: "#A9895A",
+          DEFAULT: "#8B5CF6",
+          dark: "#6D3FE0",
         },
-        pen: "#B23B29",
-        ink: "#182338",
-        chalk: "#ECC15C",
+        pen: "#FF4436",
+        ink: "#12172B",
+        chalk: "#FFCB3C",
+        mint: "#16B26A",
       },
       fontFamily: {
-        display: ["Fraunces", "ui-serif", "Georgia", "serif"],
+        display: ["'Space Grotesk'", "ui-sans-serif", "system-ui", "sans-serif"],
         mono: ["'IBM Plex Mono'", "ui-monospace", "SFMono-Regular", "monospace"],
         body: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       backgroundImage: {
         "chalk-noise":
-          "radial-gradient(circle at 20% 20%, rgba(255,255,255,0.035) 0, transparent 45%), radial-gradient(circle at 80% 60%, rgba(255,255,255,0.03) 0, transparent 40%)",
+          "radial-gradient(circle at 15% 10%, rgba(47,92,255,0.06) 0, transparent 40%), radial-gradient(circle at 85% 30%, rgba(255,203,60,0.10) 0, transparent 35%), radial-gradient(circle at 60% 85%, rgba(139,92,246,0.06) 0, transparent 40%)",
       },
       keyframes: {
         "strike-in": {
